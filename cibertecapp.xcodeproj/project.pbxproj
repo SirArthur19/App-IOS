@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7D829362CE9438B00359921 /* MenuTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D829352CE9438B00359921 /* MenuTabBarController.swift */; };
+		B7D829382CE943C700359921 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D829372CE943C700359921 /* LoginViewController.swift */; };
 		B7FA532A2CE4292700B7C7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA53292CE4292700B7C7D6 /* AppDelegate.swift */; };
 		B7FA532C2CE4292700B7C7D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA532B2CE4292700B7C7D6 /* SceneDelegate.swift */; };
 		B7FA532E2CE4292700B7C7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA532D2CE4292700B7C7D6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7D829352CE9438B00359921 /* MenuTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarController.swift; sourceTree = "<group>"; };
+		B7D829372CE943C700359921 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7FA53262CE4292700B7C7D6 /* cibertecapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cibertecapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FA53292CE4292700B7C7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7FA532B2CE4292700B7C7D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				B7FA53322CE4292800B7C7D6 /* Assets.xcassets */,
 				B7FA53342CE4292800B7C7D6 /* LaunchScreen.storyboard */,
 				B7FA53372CE4292800B7C7D6 /* Info.plist */,
+				B7D829352CE9438B00359921 /* MenuTabBarController.swift */,
+				B7D829372CE943C700359921 /* LoginViewController.swift */,
 			);
 			path = cibertecapp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				B7FA532E2CE4292700B7C7D6 /* ViewController.swift in Sources */,
 				B7FA532A2CE4292700B7C7D6 /* AppDelegate.swift in Sources */,
+				B7D829362CE9438B00359921 /* MenuTabBarController.swift in Sources */,
+				B7D829382CE943C700359921 /* LoginViewController.swift in Sources */,
 				B7FA532C2CE4292700B7C7D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
