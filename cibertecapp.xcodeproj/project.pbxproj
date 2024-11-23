@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		B7896E622CED843E008CB19A /* NotaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7896E612CED843E008CB19A /* NotaTableViewCell.swift */; };
 		B7896E642CED8457008CB19A /* NotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7896E632CED8457008CB19A /* NotaViewController.swift */; };
+		B7A8A79B2CF279F3009D17EC /* BibliotecaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8A79A2CF279F3009D17EC /* BibliotecaViewController.swift */; };
+		B7A8A79D2CF27A0D009D17EC /* BibliotecaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8A79C2CF27A0D009D17EC /* BibliotecaTableViewCell.swift */; };
+		B7A8A7A02CF2840D009D17EC /* MensajesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8A79F2CF2840D009D17EC /* MensajesTableViewCell.swift */; };
+		B7A8A7A22CF28420009D17EC /* MensajesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8A7A12CF28420009D17EC /* MensajesViewController.swift */; };
+		B7A8A7A42CF2976C009D17EC /* BibliotecaDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8A7A32CF2976C009D17EC /* BibliotecaDetalleViewController.swift */; };
 		B7D829362CE9438B00359921 /* MenuTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D829352CE9438B00359921 /* MenuTabBarController.swift */; };
 		B7D829382CE943C700359921 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D829372CE943C700359921 /* LoginViewController.swift */; };
 		B7FA532A2CE4292700B7C7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA53292CE4292700B7C7D6 /* AppDelegate.swift */; };
@@ -22,6 +27,11 @@
 /* Begin PBXFileReference section */
 		B7896E612CED843E008CB19A /* NotaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaTableViewCell.swift; sourceTree = "<group>"; };
 		B7896E632CED8457008CB19A /* NotaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaViewController.swift; sourceTree = "<group>"; };
+		B7A8A79A2CF279F3009D17EC /* BibliotecaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaViewController.swift; sourceTree = "<group>"; };
+		B7A8A79C2CF27A0D009D17EC /* BibliotecaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaTableViewCell.swift; sourceTree = "<group>"; };
+		B7A8A79F2CF2840D009D17EC /* MensajesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensajesTableViewCell.swift; sourceTree = "<group>"; };
+		B7A8A7A12CF28420009D17EC /* MensajesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensajesViewController.swift; sourceTree = "<group>"; };
+		B7A8A7A32CF2976C009D17EC /* BibliotecaDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaDetalleViewController.swift; sourceTree = "<group>"; };
 		B7D829352CE9438B00359921 /* MenuTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarController.swift; sourceTree = "<group>"; };
 		B7D829372CE943C700359921 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7FA53262CE4292700B7C7D6 /* cibertecapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cibertecapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +64,25 @@
 			path = notas;
 			sourceTree = "<group>";
 		};
+		B7A8A7992CF279CE009D17EC /* biblioteca */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8A79A2CF279F3009D17EC /* BibliotecaViewController.swift */,
+				B7A8A79C2CF27A0D009D17EC /* BibliotecaTableViewCell.swift */,
+				B7A8A7A32CF2976C009D17EC /* BibliotecaDetalleViewController.swift */,
+			);
+			path = biblioteca;
+			sourceTree = "<group>";
+		};
+		B7A8A79E2CF283FB009D17EC /* mensajes */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8A79F2CF2840D009D17EC /* MensajesTableViewCell.swift */,
+				B7A8A7A12CF28420009D17EC /* MensajesViewController.swift */,
+			);
+			path = mensajes;
+			sourceTree = "<group>";
+		};
 		B7FA531D2CE4292700B7C7D6 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +102,8 @@
 		B7FA53282CE4292700B7C7D6 /* cibertecapp */ = {
 			isa = PBXGroup;
 			children = (
+				B7A8A79E2CF283FB009D17EC /* mensajes */,
+				B7A8A7992CF279CE009D17EC /* biblioteca */,
 				B7896E602CED83F9008CB19A /* notas */,
 				B7FA53292CE4292700B7C7D6 /* AppDelegate.swift */,
 				B7FA532B2CE4292700B7C7D6 /* SceneDelegate.swift */,
@@ -159,12 +190,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FA532E2CE4292700B7C7D6 /* ViewController.swift in Sources */,
+				B7A8A7A02CF2840D009D17EC /* MensajesTableViewCell.swift in Sources */,
 				B7FA532A2CE4292700B7C7D6 /* AppDelegate.swift in Sources */,
+				B7A8A79D2CF27A0D009D17EC /* BibliotecaTableViewCell.swift in Sources */,
 				B7D829362CE9438B00359921 /* MenuTabBarController.swift in Sources */,
 				B7896E622CED843E008CB19A /* NotaTableViewCell.swift in Sources */,
 				B7D829382CE943C700359921 /* LoginViewController.swift in Sources */,
 				B7FA532C2CE4292700B7C7D6 /* SceneDelegate.swift in Sources */,
+				B7A8A7A42CF2976C009D17EC /* BibliotecaDetalleViewController.swift in Sources */,
+				B7A8A79B2CF279F3009D17EC /* BibliotecaViewController.swift in Sources */,
 				B7896E642CED8457008CB19A /* NotaViewController.swift in Sources */,
+				B7A8A7A22CF28420009D17EC /* MensajesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
